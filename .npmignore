@@ -1,0 +1,14 @@
+.github/
+cmake/
+contrib/
+docs/
+resources/
+test/
+CMakeLists.txt
+dox
+Makefile
+meson_options.txt
+meson.build
+setversion.py
+TinyXML2_small.png
+xmltest.cpp

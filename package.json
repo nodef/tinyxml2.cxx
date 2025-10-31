@@ -1,0 +1,15 @@
+{
+  "name": "tinyxml2.cxx",
+  "version": "11.0.0",
+  "description": "TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs; Lee Thomason (2011).",
+  "keywords": ["c", "library", "parser", "xml"],
+  "license": "Zlib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/tinyxml2.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/tinyxml2.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/tinyxml2.cxx#readme"
+}

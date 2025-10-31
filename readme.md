@@ -4,7 +4,7 @@ TinyXML-2
 [![Test](https://github.com/leethomason/tinyxml2/actions/workflows/test.yml/badge.svg)](https://github.com/leethomason/tinyxml2/actions/workflows/test.yml)
 
 TinyXML-2 is a simple, small, efficient, C++ XML parser that can be
-easily integrated into other programs.
+easily integrated into other programs, by [Lee Thomason](https://github.com/leethomason).
 
 The master is hosted on github:
 https://github.com/leethomason/tinyxml2
@@ -258,7 +258,27 @@ Examples
 Using and Installing
 --------------------
 
-There are 2 files in TinyXML-2:
+Run:
+```bash
+$ npm i tinyxml2.cxx
+```
+
+And then include `tinyxml2.h` as follows:
+```c
+#include "node_modules/tinyxml2.cxx/tinyxml2.h"
+```
+
+You may also want to include `tinyxml2.cpp` as follows:
+```c
+#ifndef __TINYXML2_CXX__
+#define __TINYXML2_CXX__
+#include "node_modules/tinyxml2.cxx/tinyxml2.cpp"
+#endif
+```
+
+This will include both the function declaration and their definitions into a single file.
+
+As noted above, there are 2 files in TinyXML-2:
 * tinyxml2.cpp
 * tinyxml2.h
 
